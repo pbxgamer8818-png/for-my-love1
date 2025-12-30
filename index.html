@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For My Love ❤️</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #ff758c, #ff7eb3);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: normal;
+    }
+
+    .heart {
+      font-size: 60px;
+      animation: beat 1s infinite;
+    }
+
+    @keyframes beat {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 18px;
+      background: white;
+      color: #ff4d6d;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ffe6eb;
+    }
+
+    #msg {
+      margin-top: 25px;
+      font-size: 20px;
+      display: none;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="heart">❤️</div>
+
+    <h1>For My Beautiful Girl 💖</h1>
+    <h2>You are my happiness, my peace, my everything 🌸</h2>
+
+    <button onclick="showLove()">Click Me 🥰</button>
+
+    <div id="msg">
+      I love you more than words can say 💕<br>
+      Forever yours 😘
+    </div>
+
+    <footer>
+      Made with ❤️ by Your Boy
+    </footer>
+  </div>
+
+  <script>
+    function showLove() {
+      document.getElementById("msg").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
